@@ -1,0 +1,18 @@
+footer {
+    text-align: center;
+    color: beige;
+    padding: 1rem;
+    background-color: #2a3946;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+sidebar {
+  text-align: center;
+  color: beige;
+  padding: 1rem;
+  background-color: #2a3946;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Contenedor principal */
+.container {
+  text-align: center; /* Centra el título */
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Estilo del título principal */
+.film-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Contenido principal: imagen a la izquierda, detalles a la derecha */
+.film-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px; /* Espacio entre la imagen y los detalles */
+  text-align: left;
+}
+
+/* Contenedor de la imagen */
+.film-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el nombre original debajo de la imagen */
+}
+
+.film-detail-image {
+  width: 200px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Estilo del nombre original */
+.original-title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Detalles de la película a la derecha */
+.film-details {
+  flex: 1; /* Hace que este contenedor tome el espacio restante */
+  font-size: 1em;
+  line-height: 1.6;
+}
+
